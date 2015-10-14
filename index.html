@@ -3,14 +3,31 @@
 <head>
   <title>New Tab</title>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href=https://necolas.github.io/normalize.css/3.0.2/normalize.css/' rel='stylesheet' type='text/css'>
   <style>
     body, html {
       font-family: 'Open Sans', sans-serif;
       background-color: #002b36;
     }
     ul {
-      margin: 0 auto;
+      font-size: 20px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
       width: 20%;
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px;
+    }
+    a {
+      text-decoration: none;
+      color: #586e75;
+      transition: .5s;
+    }
+    a:hover {
+      color: #eee8d5;
     }
   </style>
 </head>
